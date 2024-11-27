@@ -9,16 +9,18 @@ interface DestinationCardProps {
 const DestinationCard = ({ image, title, description }: DestinationCardProps): JSX.Element => {
   return (
     <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-      <Image
-        src={image}
-        alt={title}
-        width={400}
-        height={300}
-        className="w-full h-48 object-cover"
-      />
-      <div className="p-6">
-        <h3 className="text-xl font-bold mb-2">{title}</h3>
-        <p className="text-gray-600">{description}</p>
+      <div className="relative h-[200px] xs:h-[225px] sm:h-[250px] md:h-[200px] lg:h-[225px] xl:h-[250px]">
+        <Image
+          src={image}
+          alt={title}
+          fill
+          className="object-cover"
+          sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
+        />
+      </div>
+      <div className="p-4 sm:p-5 md:p-6">
+        <h3 className="text-lg sm:text-xl font-medium text-[#2C5530] mb-2 sm:mb-3">{title}</h3>
+        <p className="text-sm sm:text-base text-[#557B59] font-light">{description}</p>
       </div>
     </div>
   );
@@ -26,25 +28,28 @@ const DestinationCard = ({ image, title, description }: DestinationCardProps): J
 
 const TourInfo = (): JSX.Element => {
   return (
-    <section id="tours" className="py-16 px-4 md:px-8 max-w-7xl mx-auto">
-      <h2 className="text-3xl font-bold text-center mb-12">Expertly Guided Adventures</h2>
-      <div className="grid md:grid-cols-3 gap-8">
+    <section id="tours" className="py-8 sm:py-12 md:py-16 px-4 sm:px-6 md:px-8 max-w-7xl mx-auto">
+      <h2 className="text-2xl sm:text-3xl font-light text-[#2C5530] text-center mb-8 sm:mb-12">Expertly Guided Adventures</h2>
+      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
         <DestinationCard 
-          image="/images/arenal-volcano.jpg"
+          image="/ArenalVolcano.jpeg"
           title="Arenal Volcano Tours"
           description="Explore one of Costa Rica's most active volcanoes with expert interpretation of the local geology and ecosystem."
         />
         <DestinationCard 
-          image="/images/heredia-coffee.jpg"
-          title="Heredia Coffee Experience"
-          description="Visit historic coffee plantations in Erick's hometown region, learning about Costa Rica's rich coffee heritage."
+          image="/crocodile.jpeg"
+          title="Cultural & Nature Tours" 
+          description="Immerse yourself in Costa Rica's rich culture and natural beauty through guided visits to local plantations, forests and communities."
         />
         <DestinationCard 
-          image="/images/wildlife-tours.jpg"
+          image="/scopeViewing.jpeg"
           title="Wildlife Spotting Tours"
           description="Discover Costa Rica's diverse wildlife through professional spotting scopes with expert guidance and interpretation."
         />
       </div>
+      <p className="text-base sm:text-lg text-[#557B59] font-light mt-8 sm:mt-12 text-center italic max-w-4xl mx-auto">
+        Let Erick, your licensed naturalist guide with over a decade of experience, create your perfect Costa Rican adventure. From coffee plantations to volcanic landscapes, experience authentic Costa Rica through the eyes of a local expert.
+      </p>
     </section>
   );
 };
