@@ -7,18 +7,18 @@ const Hero = (): JSX.Element => {
     <section id="hero" className="relative min-h-screen bg-[#F7F7F7] pt-12 sm:pt-14 md:pt-16">
       <div className="grid grid-cols-1 md:grid-cols-2 h-full">
         <div className="relative z-10 flex flex-col justify-center p-4 sm:p-6 md:p-12 lg:p-16 xl:p-24">
-          <h1 className="font-light text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-[#2C5530] mb-4 sm:mb-6">
+          <h1 className="font-normal text-4xl md:text-5xl lg:text-6xl text-[#2C5530] mb-6 whitespace-nowrap">
             Premier Costa Rica
             <br />
             Tour Guide Services
           </h1>
-          <p className="text-base sm:text-lg md:text-xl text-[#557B59] mb-4 sm:mb-6 font-light leading-relaxed">
+          <p className="text-base sm:text-lg md:text-xl text-[#557B59] mb-4 sm:mb-6 font-normal leading-relaxed">
             Join licensed naturalist guide Erick Miranda for an authentic journey through his homeland. From historic coffee plantations to pristine forests, discover Costa Rica through expert eyes.
           </p>
           <div className="space-y-3 sm:space-y-4 mb-6 sm:mb-8">
-            <p className="text-[#557B59] font-light text-sm sm:text-base">• Custom groups of any size welcome</p>
-            <p className="text-[#557B59] font-light text-sm sm:text-base">• Fluent in Spanish and English</p>
-            <p className="text-[#557B59] font-light text-sm sm:text-base">• Over a decade of professional guiding experience</p>
+            <p className="text-[#557B59] font-normal text-sm sm:text-base">• Custom groups of any size welcome</p>
+            <p className="text-[#557B59] font-normal text-sm sm:text-base">• Fluent in Spanish and English</p>
+            <p className="text-[#557B59] font-normal text-sm sm:text-base">• Over a decade of professional guiding experience</p>
             <div className="border-t border-[#2C5530] pt-3 sm:pt-4 mt-3 sm:mt-4">
               <div className="flex items-center gap-2">
                 <a href="tel:+50686439040" className="flex items-center gap-2 hover:text-[#557B59] transition-colors">

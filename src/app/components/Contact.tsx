@@ -5,11 +5,15 @@ import Image from 'next/image';
 const Contact = (): JSX.Element => {
   return (
     <section id="contact" className="py-8 sm:py-12 md:py-16 px-4 sm:px-6 md:px-8 max-w-7xl mx-auto">
-      <h2 className="text-2xl sm:text-3xl font-light text-[#2C5530] text-center mb-8 sm:mb-12">Book Your Experience</h2>
+      <h2 className="text-2xl sm:text-3xl font-semibold text-[#2C5530] text-center mb-8 sm:mb-12 tracking-tight">
+        Book Your Experience
+      </h2>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 items-start">
         <div className="space-y-6 sm:space-y-8">
           <div>
-            <h3 className="text-lg sm:text-xl font-light text-[#2C5530] mb-3 sm:mb-4">Ready to Experience Costa Rica?</h3>
+            <h3 className="text-lg sm:text-xl font-medium text-[#2C5530] mb-3 sm:mb-4">
+              Ready to Experience Costa Rica?
+            </h3>
             <p className="text-base sm:text-lg text-[#557B59] font-light leading-relaxed">
               Let&apos;s start planning your personalized adventure through Costa Rica&apos;s natural wonders. Whether you&apos;re interested in wildlife spotting, cultural experiences, or exploring volcanic landscapes, we&apos;ll create the perfect itinerary for you.
             </p>
