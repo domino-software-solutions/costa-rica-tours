@@ -68,7 +68,7 @@ const Navbar = (): JSX.Element => {
                   href="/guides/glenda"
                   className="block px-4 py-2 text-[#2C5530] hover:bg-[#F7F7F7] transition-colors duration-300"
                 >
-                  Glenda Miranda
+                  Glenda Araya
                 </Link>
               </div>
             )}

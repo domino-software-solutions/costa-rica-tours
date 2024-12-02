@@ -7,7 +7,7 @@ const GlendaGuidePage = (): JSX.Element => {
       <TourGuidesNavbar />
       <div className="pt-24 pb-16 px-4 sm:px-6 md:px-8 max-w-7xl mx-auto">
         <h1 className="text-3xl sm:text-4xl font-semibold text-[#2C5530] text-center mb-12">
-          Glenda Miranda - Cultural Guide & Local Expert
+          Glenda Araya - Cultural Guide & Local Expert
         </h1>
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
