@@ -27,7 +27,7 @@ const ReviewsPage = (): JSX.Element => {
     '/glassFrog.jpeg',
     '/GlendaSit.jpg',
     '/groupPhoto.jpg',
-    '/Erickluggage.jpg',
+
   
   
   ];
