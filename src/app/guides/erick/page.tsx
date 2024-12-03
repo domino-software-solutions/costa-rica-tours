@@ -41,7 +41,7 @@ const ErickGuidePage = (): JSX.Element => {
             <div className="my-8 xs:my-10 sm:my-12">
               <blockquote className="border-l-4 border-[#2C5530] pl-4 xs:pl-5 sm:pl-6 italic text-[#557B59] text-sm xs:text-base sm:text-lg">
                 &quot;Erick was beyond outstanding as our guide for our 11 day tour all around Costa Rica. His knowledge and passion for his country brought a depth to each day&apos;s experience. His ability to weave together facts, history, insights and delight in every aspect of nature made us get excited about things we knew nothing about (sloths! birds! frogs! monkeys! crocodiles!) When rain or road conditions created challenges, he quickly rearranged plans so we didn&apos;t miss out on anything. We knew we were in excellent hands, and we didn&apos;t worry about anything.&quot;
-                <footer className="mt-2 font-medium text-[#2C5530]">- Susan Colin</footer>
+                <footer className="mt-2 font-medium text-[#2C5530]">- Susan C.</footer>
               </blockquote>
             </div>
 

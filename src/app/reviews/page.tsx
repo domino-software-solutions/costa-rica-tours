@@ -139,7 +139,7 @@ const ReviewsPage = (): JSX.Element => {
                 <p className="mb-4 text-sm xs:text-base sm:text-lg leading-relaxed">
                   &quot;Glenda was amazing, from personally meeting us at the airport to the last hug of farewell at the end of the trip; so personal, engaging, knowledgeable of the history, culture, geography, ecology and wildlife. And she knew so many other people along the way that it felt like we were constantly meeting with her friends and family: getting special treatment and experiencing aspects of Costa Rica that we could only have had being with her on our travels.&quot;
                 </p>
-                <footer className="font-medium text-[#2C5530]">- John Caterina</footer>
+                <footer className="font-medium text-[#2C5530]">- John C.</footer>
               </blockquote>
             </div>
 
@@ -149,7 +149,7 @@ const ReviewsPage = (): JSX.Element => {
                 <p className="mb-4 text-sm xs:text-base sm:text-lg leading-relaxed">
                   &quot;Erick was beyond outstanding as our guide for our 11 day tour all around Costa Rica. His knowledge and passion for his country brought a depth to each day&apos;s experience. His ability to weave together facts, history, insights and delight in every aspect of nature made us get excited about things we knew nothing about (sloths! birds! frogs! monkeys! crocodiles!) When rain or road conditions created challenges, he quickly rearranged plans so we didn&apos;t miss out on anything. We knew we were in excellent hands, and we didn&apos;t worry about anything.&quot;
                 </p>
-                <footer className="font-medium text-[#2C5530]">- Susan Colin</footer>
+                <footer className="font-medium text-[#2C5530]">- Susan C.</footer>
               </blockquote>
             </div>
 
@@ -159,7 +159,7 @@ const ReviewsPage = (): JSX.Element => {
                 <p className="mb-4 text-sm xs:text-base sm:text-lg leading-relaxed">
                   &quot;Glenda&apos;s knowledge of her home country was off the scale. She never faulted in naming the birds, animals and reptiles we came into contact with. How she could spot the creatures from afar was unbelievable! She worked non-stop to make everyone enjoy their holiday. She even collected laundry during her break time for other people in our group.&quot;
                 </p>
-                <footer className="font-medium text-[#2C5530]">- Anne Mockridge</footer>
+                <footer className="font-medium text-[#2C5530]">- Anne M.</footer>
               </blockquote>
             </div>
           </div>

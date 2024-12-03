@@ -48,12 +48,12 @@ const GlendaGuidePage = (): JSX.Element => {
             <div className="my-8 xs:my-10 sm:my-12 space-y-6 xs:space-y-7 sm:space-y-8">
               <blockquote className="border-l-4 border-[#2C5530] pl-4 xs:pl-5 sm:pl-6 italic text-[#557B59] text-sm xs:text-base sm:text-lg">
                 &quot;Glenda was amazing, from personally meeting us at the airport to the last hug of farewell at the end of the trip; so personal, engaging, knowledgeable of the history, culture, geography, ecology and wildlife. And she knew so many other people along the way that it felt like we were constantly meeting with her friends and family: getting special treatment and experiencing aspects of Costa Rica that we could only have had being with her on our travels. She was so hard-working; we would see her early in the mornings and late in the evening constantly planning and studying up to make our experience the very best it could be. What a lovely person and expert tour guide. We feel lucky and blessed to have been assigned Glenda and we all still keep in touch on WhatsApp which really underscores her ability to both engage and build lasting community connections.&quot;
-                <footer className="mt-2 font-medium text-[#2C5530]">- John Caterina</footer>
+                <footer className="mt-2 font-medium text-[#2C5530]">- John C.</footer>
               </blockquote>
 
               <blockquote className="border-l-4 border-[#2C5530] pl-4 xs:pl-5 sm:pl-6 italic text-[#557B59] text-sm xs:text-base sm:text-lg">
                 &quot;Glenda was simply the best tour guide I have ever met. Her knowledge of her home country was off the scale. She never faulted in naming the birds, animals and reptiles we came into contact with. How she could spot the creatures from afar was unbelievable! She worked non-stop to make everyone enjoy their holiday. She even collected laundry during her break time for other people in our group. She also recommended many extra trips and restaurants which were just perfect and added to the experience. We wish her all the best in her future career and just wish we could meet up again someday.&quot;
-                <footer className="mt-2 font-medium text-[#2C5530]">- Anne Mockridge</footer>
+                <footer className="mt-2 font-medium text-[#2C5530]">- Anne M.</footer>
               </blockquote>
             </div>
 
