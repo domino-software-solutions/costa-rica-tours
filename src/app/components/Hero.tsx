@@ -4,9 +4,20 @@ import Image from 'next/image';
 
 const Hero = (): JSX.Element => {
   return (
-    <section id="hero" className="relative min-h-screen bg-[#F7F7F7] pt-12 sm:pt-14 md:pt-16">
-      <div className="grid grid-cols-1 md:grid-cols-2 h-full">
-        <div className="relative z-10 flex flex-col justify-center p-4 sm:p-6 md:p-12 lg:p-16 xl:p-24">
+    <section id="hero" className="relative min-h-screen bg-[#F7F7F7]">
+      <div className="relative h-[50vh] w-full">
+        <Image
+          src="/BeachSunset.jpg"
+          alt="Costa Rica Beach Sunset"
+          fill
+          className="object-cover"
+          priority
+          sizes="100vw"
+        />
+      </div>
+
+      <div className="container mx-auto px-4 sm:px-6 md:px-8 py-12 sm:py-14 md:py-16">
+        <div className="max-w-4xl">
           <h1 className="font-normal text-4xl md:text-5xl lg:text-6xl text-[#2C5530] mb-6 whitespace-nowrap">
             Premier Costa Rica
             <br />
@@ -60,43 +71,6 @@ const Hero = (): JSX.Element => {
                 </svg>
                 Contact via Email
               </a>
-            </div>
-          </div>
-        </div>
-
-        <div className="relative h-[60vh] sm:h-[70vh] md:h-[calc(100vh-4rem)] order-first md:order-last">
-          <div className="absolute inset-0 p-4 sm:p-6 md:p-8 lg:p-12">
-            <div className="h-full w-full grid grid-rows-2 gap-3 sm:gap-4">
-              <div className="relative w-full h-full">
-                <Image
-                  src="/flower.jpeg"
-                  alt="Costa Rica Flora"
-                  fill
-                  className="object-cover rounded-lg"
-                  priority
-                  sizes="(max-width: 768px) 100vw, 50vw"
-                />
-              </div>
-              <div className="grid grid-cols-2 gap-3 sm:gap-4">
-                <div className="relative w-full h-full">
-                  <Image
-                    src="/toucan.jpeg"
-                    alt="Costa Rica Toucan"
-                    fill
-                    className="object-cover rounded-lg"
-                    sizes="(max-width: 768px) 50vw, 25vw"
-                  />
-                </div>
-                <div className="relative w-full h-full">
-                  <Image
-                    src="/lookingUp.jpeg"
-                    alt="Looking up at Costa Rica canopy"
-                    fill
-                    className="object-cover rounded-lg"
-                    sizes="(max-width: 768px) 50vw, 25vw"
-                  />
-                </div>
-              </div>
             </div>
           </div>
         </div>
