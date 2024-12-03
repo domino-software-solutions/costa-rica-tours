@@ -9,13 +9,27 @@ import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 const ReviewsPage = (): JSX.Element => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const images = [
+    '/BeachSunset.jpg',
     '/purpleSunset.jpg',
     '/RedTrees.jpg',
-    '/scopeViewing.jpeg',
     '/SunsetRiver.jpg',
-    '/toucan.jpeg',
     '/treeRootTrunk.jpg',
-    '/TreesInSand.jpg'
+    '/TreesInSand.jpg',
+    '/BlueSkyReflection.jpg',
+    '/blueFlowers.jpg',
+    '/BlueSkyRiver.jpg',
+    '/butterfly2.jpeg',
+    '/toucan.jpeg',
+    '/birdFavorite.jpeg',
+    '/scopeViewing.jpeg',
+    '/crocodile.jpeg',
+    '/GlendaBoat.jpg',
+    '/glassFrog.jpeg',
+    '/GlendaSit.jpg',
+    '/groupPhoto.jpg',
+    '/Erickluggage.jpg',
+  
+  
   ];
 
   const nextImage = () => {

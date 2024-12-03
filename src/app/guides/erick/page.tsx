@@ -17,13 +17,13 @@ const ErickGuidePage = (): JSX.Element => {
           </header>
 
           <div className="grid grid-cols-1 xs:grid-cols-2 gap-4 xs:gap-5 sm:gap-6 mb-8 xs:mb-10 sm:mb-12">
-            <div className="relative h-[250px] xs:h-[300px] sm:h-[350px] md:h-[600px]">
+            <div className="relative h-[360px] xs:h-[450px] sm:h-[540px] md:h-[630px]">
               <Image
-                src="/Erick1.jpeg"
+                src="/Erick2.jpeg"
                 alt="Erick Miranda Guide"
                 fill
-                className="object-cover rounded-lg"
-                sizes="(max-width: 480px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                className="object-contain rounded-lg"
+                sizes="(max-width: 768px) 100vw, 50vw"
                 priority
               />
             </div>
