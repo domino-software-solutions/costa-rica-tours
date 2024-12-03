@@ -24,12 +24,13 @@ const Hero = (): JSX.Element => {
             Tour Guide Services
           </h1>
           <p className="text-base sm:text-lg md:text-xl text-[#557B59] mb-4 sm:mb-6 font-normal leading-relaxed">
-            Join licensed naturalist guide Erick Miranda for an authentic journey through his homeland. From historic coffee plantations to pristine forests, discover Costa Rica through expert eyes.
+            Join our expert naturalist guides Erick Miranda and Glenda Araya for authentic journeys through their homeland. From historic coffee plantations to pristine forests and national parks, discover Costa Rica through their expert eyes.
           </p>
           <div className="space-y-3 sm:space-y-4 mb-6 sm:mb-8">
             <p className="text-[#557B59] font-normal text-sm sm:text-base">• Custom groups of any size welcome</p>
             <p className="text-[#557B59] font-normal text-sm sm:text-base">• Fluent in Spanish and English</p>
             <p className="text-[#557B59] font-normal text-sm sm:text-base">• Over a decade of professional guiding experience</p>
+            <p className="text-[#557B59] font-normal text-sm sm:text-base">• Award-winning naturalist expertise</p>
             <div className="border-t border-[#2C5530] pt-3 sm:pt-4 mt-3 sm:mt-4">
               <div className="flex items-center gap-2">
                 <a href="tel:+50686439040" className="flex items-center gap-2 hover:text-[#557B59] transition-colors">
