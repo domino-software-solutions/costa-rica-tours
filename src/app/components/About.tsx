@@ -15,7 +15,7 @@ const About = (): JSX.Element => {
             <Link href="/guides/erick" className="block w-full group">
               <div className="relative h-[300px] w-full group-hover:shadow-lg transition-shadow duration-300">
                 <Image
-                  src="/Erick1.jpeg"
+                  src="/ErickStar.jpg"
                   alt="Erick Miranda Guide"
                   fill
                   className="object-cover rounded-lg"

@@ -72,7 +72,7 @@ const Contact = (): JSX.Element => {
           {/* Main large image */}
           <div className="relative col-span-2 h-[200px] sm:h-[250px] lg:h-[300px]">
             <Image
-              src="/ArenalVolcano.jpeg"
+              src="/BlueSkyReflection.jpg"
               alt="Majestic Arenal Volcano"
               fill
               className="object-cover rounded-lg"
@@ -93,7 +93,7 @@ const Contact = (): JSX.Element => {
           
           <div className="relative h-[100px] sm:h-[125px] lg:h-[150px]">
             <Image
-              src="/egrets.jpeg"
+              src="/TreesInSand.jpg"
               alt="Elegant egrets in their natural habitat"
               fill
               className="object-cover rounded-lg"

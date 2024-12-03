@@ -39,7 +39,7 @@ const TourInfo = (): JSX.Element => {
           description="Explore one of Costa Rica's most active volcanoes with expert interpretation of the local geology and ecosystem."
         />
         <DestinationCard 
-          image="/crocodile.jpeg"
+          image="/toucan.jpeg"
           title="Cultural & Nature Tours" 
           description="Immerse yourself in Costa Rica's rich culture and natural beauty through guided visits to local plantations, forests and communities."
         />
@@ -50,7 +50,7 @@ const TourInfo = (): JSX.Element => {
         />
       </div>
       <p className="text-base sm:text-lg text-[#557B59] font-normal mt-8 sm:mt-12 text-center italic max-w-4xl mx-auto">
-        Let Erick, your licensed naturalist guide with over a decade of experience, create your perfect Costa Rican adventure. From coffee plantations to volcanic landscapes, experience authentic Costa Rica through the eyes of a local expert.
+        Let Erick and Glenda, your licensed naturalist guides with over a decade of experience, create your perfect Costa Rican adventure. From coffee plantations to volcanic landscapes, experience authentic Costa Rica through the eyes of local experts.
       </p>
     </section>
   );
