@@ -1,11 +1,24 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
 
 const Navbar = (): JSX.Element => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const [prevScrollPos, setPrevScrollPos] = useState(0);
+  const [visible, setVisible] = useState(true);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollPos = window.scrollY;
+      setVisible(prevScrollPos > currentScrollPos || currentScrollPos < 10);
+      setPrevScrollPos(currentScrollPos);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, [prevScrollPos]);
 
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
@@ -14,7 +27,7 @@ const Navbar = (): JSX.Element => {
   };
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-20 p-4 bg-[#F7F7F7]">
+    <nav className={`fixed top-0 left-0 right-0 z-20 p-4 bg-[#F7F7F7] transition-transform duration-300 ${visible ? 'translate-y-0' : '-translate-y-full'}`}>
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         <span 
           className="text-xl sm:text-2xl font-medium cursor-pointer text-[#2C5530] hover:text-[#557B59] transition-colors duration-300 tracking-wide flex items-center gap-2" 
@@ -73,7 +86,12 @@ const Navbar = (): JSX.Element => {
               </div>
             )}
           </div>
-
+          <Link
+            href="/reviews"
+            className="text-[#2C5530] hover:text-[#557B59] transition-colors duration-300 font-medium"
+          >
+            Reviews
+          </Link>
           <button 
             onClick={() => scrollToSection('contact')} 
             className="text-[#2C5530] hover:text-[#557B59] transition-colors duration-300 font-medium"
@@ -122,13 +140,19 @@ const Navbar = (): JSX.Element => {
               href="/guides/erick"
               className="text-[#2C5530] hover:text-[#557B59] transition-colors duration-300 font-medium w-full py-2 text-center"
             >
-              Erick&apos;s Profile
+              Erick Miranda
             </Link>
             <Link 
               href="/guides/glenda"
               className="text-[#2C5530] hover:text-[#557B59] transition-colors duration-300 font-medium w-full py-2 text-center"
             >
-              Glenda&apos;s Profile
+              Glenda Araya
+            </Link>
+            <Link
+              href="/reviews"
+              className="text-[#2C5530] hover:text-[#557B59] transition-colors duration-300 font-medium w-full py-2 text-center"
+            >
+              Reviews
             </Link>
             <button 
               onClick={() => scrollToSection('contact')} 
