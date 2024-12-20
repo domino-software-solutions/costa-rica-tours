@@ -14,11 +14,11 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Costa Rica Tours | Experience Pura Vida",
+  title: "Salt n Clouds | Costa Rica Tours | Experience Pura Vida",
   description: "Discover the natural beauty of Costa Rica with our guided tours - rainforests, beaches, volcanoes, and wildlife adventures.",
   keywords: "Costa Rica tours, eco tourism, rainforest tours, beach adventures, volcano tours",
   openGraph: {
-    title: "Costa Rica Tours | Experience Pura Vida",
+    title: "Salt n Clouds | Costa Rica Tours | Experience Pura Vida",
     description: "Discover the natural beauty of Costa Rica with our guided tours - rainforests, beaches, volcanoes, and wildlife adventures.",
     images: [
       {
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Costa Rica Tours | Experience Pura Vida",
+    title: "Salt n Clouds | Costa Rica Tours | Experience Pura Vida",
     description: "Discover the natural beauty of Costa Rica with our guided tours - rainforests, beaches, volcanoes, and wildlife adventures.",
     images: ["/BlueSkyRiver.jpg"],
   }

@@ -19,9 +19,9 @@ const Hero = (): JSX.Element => {
       <div className="container mx-auto px-4 sm:px-6 md:px-8 py-12 sm:py-14 md:py-16">
         <div className="max-w-4xl">
           <h1 className="font-normal text-4xl md:text-5xl lg:text-6xl text-[#1F2937] mb-6 whitespace-nowrap">
-            Premier Costa Rica
+            Salt n Clouds
             <br />
-            Tour Guide Services
+            Costa Rica Tours
           </h1>
           <p className="text-base sm:text-lg md:text-xl text-black mb-4 sm:mb-6 font-normal leading-relaxed">
             Join our expert naturalist guides Erick Miranda and Glenda Araya for authentic journeys through their homeland. From historic coffee plantations to pristine forests and national parks, discover Costa Rica through their expert eyes.

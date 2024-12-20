@@ -33,7 +33,7 @@ const Navbar = (): JSX.Element => {
           className="text-xl sm:text-2xl font-medium cursor-pointer text-black hover:text-[#557B59] transition-colors duration-300 tracking-wide flex items-center gap-2" 
           onClick={() => scrollToSection('hero')}
         >
-          <span className="font-medium">Costa Rica Tours</span>
+          <span className="font-medium">Salt n Clouds</span>
         </span>
 
         {/* Desktop Menu */}
