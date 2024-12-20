@@ -18,34 +18,34 @@ const Hero = (): JSX.Element => {
 
       <div className="container mx-auto px-4 sm:px-6 md:px-8 py-12 sm:py-14 md:py-16">
         <div className="max-w-4xl">
-          <h1 className="font-normal text-4xl md:text-5xl lg:text-6xl text-[#2C5530] mb-6 whitespace-nowrap">
+          <h1 className="font-normal text-4xl md:text-5xl lg:text-6xl text-[#1F2937] mb-6 whitespace-nowrap">
             Premier Costa Rica
             <br />
             Tour Guide Services
           </h1>
-          <p className="text-base sm:text-lg md:text-xl text-[#557B59] mb-4 sm:mb-6 font-normal leading-relaxed">
+          <p className="text-base sm:text-lg md:text-xl text-black mb-4 sm:mb-6 font-normal leading-relaxed">
             Join our expert naturalist guides Erick Miranda and Glenda Araya for authentic journeys through their homeland. From historic coffee plantations to pristine forests and national parks, discover Costa Rica through their expert eyes.
           </p>
           <div className="space-y-3 sm:space-y-4 mb-6 sm:mb-8">
-            <p className="text-[#557B59] font-normal text-sm sm:text-base">• Custom groups of any size welcome</p>
-            <p className="text-[#557B59] font-normal text-sm sm:text-base">• Fluent in Spanish and English</p>
-            <p className="text-[#557B59] font-normal text-sm sm:text-base">• Over a decade of professional guiding experience</p>
-            <p className="text-[#557B59] font-normal text-sm sm:text-base">• Award-winning naturalist expertise</p>
-            <div className="border-t border-[#2C5530] pt-3 sm:pt-4 mt-3 sm:mt-4">
+            <p className="text-black font-normal text-sm sm:text-base">• Custom groups of any size welcome</p>
+            <p className="text-black font-normal text-sm sm:text-base">• Fluent in Spanish and English</p>
+            <p className="text-black font-normal text-sm sm:text-base">• Over a decade of professional guiding experience</p>
+            <p className="text-black font-normal text-sm sm:text-base">• Award-winning naturalist expertise</p>
+            <div className="border-t border-black pt-3 sm:pt-4 mt-3 sm:mt-4">
               <div className="flex items-center gap-2">
                 <a href="tel:+50686439040" className="flex items-center gap-2 hover:text-[#557B59] transition-colors">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" className="sm:w-5 sm:h-5" fill="#2C5530" viewBox="0 0 16 16">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" className="sm:w-5 sm:h-5" fill="black" viewBox="0 0 16 16">
                     <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
                   </svg>
-                  <p className="text-[#2C5530] text-base sm:text-lg font-medium">Phone/WhatsApp: +506 8643 9040</p>
+                  <p className="text-black text-base sm:text-lg font-medium">Phone/WhatsApp: +506 8643 9040</p>
                 </a>
               </div>
               <div className="flex items-center gap-2 mt-2">
                 <a href="mailto:dualtkw@hotmail.com" className="flex items-center gap-2 hover:text-[#557B59] transition-colors">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" className="sm:w-5 sm:h-5" fill="#2C5530" viewBox="0 0 16 16">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" className="sm:w-5 sm:h-5" fill="black" viewBox="0 0 16 16">
                     <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
                   </svg>
-                  <p className="text-[#2C5530] text-base sm:text-lg font-medium">Email: dualtkw@hotmail.com</p>
+                  <p className="text-black text-base sm:text-lg font-medium">Email: dualtkw@hotmail.com</p>
                 </a>
               </div>
             </div>

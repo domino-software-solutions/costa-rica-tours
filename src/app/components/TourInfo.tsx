@@ -19,8 +19,8 @@ const DestinationCard = ({ image, title, description }: DestinationCardProps): J
         />
       </div>
       <div className="p-4 sm:p-5 md:p-6">
-        <h3 className="text-lg sm:text-xl font-semibold text-[#2C5530] mb-2 sm:mb-3 tracking-tight">{title}</h3>
-        <p className="text-sm sm:text-base text-[#557B59] font-normal">{description}</p>
+        <h3 className="text-lg sm:text-xl font-semibold text-black mb-2 sm:mb-3 tracking-tight">{title}</h3>
+        <p className="text-sm sm:text-base text-black font-normal">{description}</p>
       </div>
     </div>
   );
@@ -29,7 +29,7 @@ const DestinationCard = ({ image, title, description }: DestinationCardProps): J
 const TourInfo = (): JSX.Element => {
   return (
     <section id="tours" className="py-8 sm:py-12 md:py-16 px-4 sm:px-6 md:px-8 max-w-7xl mx-auto">
-      <h2 className="text-2xl sm:text-3xl font-semibold text-[#2C5530] text-center mb-8 sm:mb-12 tracking-tight">
+      <h2 className="text-2xl sm:text-3xl font-semibold text-black text-center mb-8 sm:mb-12 tracking-tight">
         Expertly Guided Adventures
       </h2>
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
@@ -49,7 +49,7 @@ const TourInfo = (): JSX.Element => {
           description="Discover Costa Rica's diverse wildlife through professional spotting scopes with expert guidance and interpretation."
         />
       </div>
-      <p className="text-base sm:text-lg text-[#557B59] font-normal mt-8 sm:mt-12 text-center italic max-w-4xl mx-auto">
+      <p className="text-base sm:text-lg text-black font-normal mt-8 sm:mt-12 text-center italic max-w-4xl mx-auto">
         Let Erick and Glenda, your licensed naturalist guides with over a decade of experience, create your perfect Costa Rican adventure. From coffee plantations to volcanic landscapes, experience authentic Costa Rica through the eyes of local experts.
       </p>
     </section>

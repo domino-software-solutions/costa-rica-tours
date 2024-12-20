@@ -46,17 +46,17 @@ const ReviewsPage = (): JSX.Element => {
       <div className="pt-16 xs:pt-20 sm:pt-24 pb-8 xs:pb-12 sm:pb-16 px-4 sm:px-6 md:px-8 w-full">
         {/* Header Section */}
         <header className="text-center mb-12 max-w-4xl mx-auto px-4">
-          <h1 className="text-xl xs:text-2xl sm:text-3xl md:text-4xl xl:text-5xl font-semibold text-[#2C5530] mb-4">
+          <h1 className="text-xl xs:text-2xl sm:text-3xl md:text-4xl xl:text-5xl font-semibold text-black mb-4">
             What Our Travelers Say
           </h1>
-          <p className="text-sm xs:text-base sm:text-lg md:text-xl text-[#557B59] leading-relaxed">
+          <p className="text-sm xs:text-base sm:text-lg md:text-xl text-black leading-relaxed">
             Discover the experiences of fellow travelers who have explored Costa Rica with our expert guides
           </p>
         </header>
 
         {/* Image Gallery Carousel */}
         <div className="max-w-5xl mx-auto mb-16 px-4">
-          <h2 className="text-lg xs:text-xl sm:text-2xl font-semibold text-[#2C5530] mb-8 text-center">
+          <h2 className="text-lg xs:text-xl sm:text-2xl font-semibold text-black mb-8 text-center">
             Moments from Our Tours
           </h2>
           <div className="relative w-full h-[200px] xs:h-[250px] sm:h-[350px] md:h-[400px] lg:h-[500px] mb-8">
@@ -129,37 +129,37 @@ const ReviewsPage = (): JSX.Element => {
 
         {/* Reviews Text Section */}
         <div className="max-w-4xl mx-auto px-4">
-          <h2 className="text-lg xs:text-xl sm:text-2xl font-semibold text-[#2C5530] mb-8 text-center">
+          <h2 className="text-lg xs:text-xl sm:text-2xl font-semibold text-black mb-8 text-center">
             Traveler Reviews
           </h2>
           <div className="space-y-8">
             {/* Glenda Review 1 */}
             <div className="bg-white rounded-xl shadow-lg p-4 sm:p-6 md:p-8">
-              <blockquote className="border-l-4 border-[#2C5530] pl-4 sm:pl-6 italic text-[#557B59]">
+              <blockquote className="border-l-4 border-[#2C5530] pl-4 sm:pl-6 italic text-black">
                 <p className="mb-4 text-sm xs:text-base sm:text-lg leading-relaxed">
                   &quot;Glenda was amazing, from personally meeting us at the airport to the last hug of farewell at the end of the trip; so personal, engaging, knowledgeable of the history, culture, geography, ecology and wildlife. And she knew so many other people along the way that it felt like we were constantly meeting with her friends and family: getting special treatment and experiencing aspects of Costa Rica that we could only have had being with her on our travels.&quot;
                 </p>
-                <footer className="font-medium text-[#2C5530]">- John C.</footer>
+                <footer className="font-medium text-black">- John C.</footer>
               </blockquote>
             </div>
 
             {/* Erick Review */}
             <div className="bg-white rounded-xl shadow-lg p-4 sm:p-6 md:p-8">
-              <blockquote className="border-l-4 border-[#2C5530] pl-4 sm:pl-6 italic text-[#557B59]">
+              <blockquote className="border-l-4 border-[#2C5530] pl-4 sm:pl-6 italic text-black">
                 <p className="mb-4 text-sm xs:text-base sm:text-lg leading-relaxed">
                   &quot;Erick was beyond outstanding as our guide for our 11 day tour all around Costa Rica. His knowledge and passion for his country brought a depth to each day&apos;s experience. His ability to weave together facts, history, insights and delight in every aspect of nature made us get excited about things we knew nothing about (sloths! birds! frogs! monkeys! crocodiles!) When rain or road conditions created challenges, he quickly rearranged plans so we didn&apos;t miss out on anything. We knew we were in excellent hands, and we didn&apos;t worry about anything.&quot;
                 </p>
-                <footer className="font-medium text-[#2C5530]">- Susan C.</footer>
+                <footer className="font-medium text-black">- Susan C.</footer>
               </blockquote>
             </div>
 
             {/* Glenda Review 2 */}
             <div className="bg-white rounded-xl shadow-lg p-4 sm:p-6 md:p-8">
-              <blockquote className="border-l-4 border-[#2C5530] pl-4 sm:pl-6 italic text-[#557B59]">
+              <blockquote className="border-l-4 border-[#2C5530] pl-4 sm:pl-6 italic text-black">
                 <p className="mb-4 text-sm xs:text-base sm:text-lg leading-relaxed">
                   &quot;Glenda&apos;s knowledge of her home country was off the scale. She never faulted in naming the birds, animals and reptiles we came into contact with. How she could spot the creatures from afar was unbelievable! She worked non-stop to make everyone enjoy their holiday. She even collected laundry during her break time for other people in our group.&quot;
                 </p>
-                <footer className="font-medium text-[#2C5530]">- Anne M.</footer>
+                <footer className="font-medium text-black">- Anne M.</footer>
               </blockquote>
             </div>
           </div>
@@ -167,13 +167,13 @@ const ReviewsPage = (): JSX.Element => {
 
         {/* Leave a Review Section */}
         <div className="text-center mt-16 max-w-2xl mx-auto px-4">
-          <h3 className="text-lg xs:text-xl font-semibold text-[#2C5530] mb-4">
+          <h3 className="text-lg xs:text-xl font-semibold text-black mb-4">
             Share Your Story & Start Your Journey
           </h3>
-          <p className="text-sm xs:text-base text-[#557B59] mb-4">
+          <p className="text-sm xs:text-base text-black mb-4">
             Have you traveled with us? We&apos;d love to hear about your experience!
           </p>
-          <p className="text-base xs:text-lg text-[#557B59] mb-8">
+          <p className="text-base xs:text-lg text-black mb-8">
             Or perhaps you&apos;re ready to create your own memorable adventure in Costa Rica?
           </p>
           <a 
